@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-security" />
+        <module name="auth-service" />
+        <module name="payment-service" />
+        <module name="common-kafka" />
+        <module name="search-service" />
+        <module name="user-service" />
+        <module name="order-service" />
+        <module name="common-email" />
+        <module name="common-redis" />
+        <module name="notification-service" />
+        <module name="common-elasticsearch" />
+        <module name="common-core" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-service" options="-parameters" />
+      <module name="common-core" options="-parameters" />
+      <module name="common-elasticsearch" options="-parameters" />
+      <module name="common-email" options="-parameters" />
+      <module name="common-kafka" options="-parameters" />
+      <module name="common-redis" options="-parameters" />
+      <module name="common-security" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="search-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
