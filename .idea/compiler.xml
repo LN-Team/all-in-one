@@ -24,18 +24,18 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="auth-service" options="-parameters" />
-      <module name="common-core" options="-parameters" />
-      <module name="common-elasticsearch" options="-parameters" />
-      <module name="common-email" options="-parameters" />
-      <module name="common-kafka" options="-parameters" />
-      <module name="common-redis" options="-parameters" />
-      <module name="common-security" options="-parameters" />
-      <module name="notification-service" options="-parameters" />
-      <module name="order-service" options="-parameters" />
-      <module name="payment-service" options="-parameters" />
-      <module name="search-service" options="-parameters" />
-      <module name="user-service" options="-parameters" />
+      <module name="auth-service" options="" />
+      <module name="common-core" options="" />
+      <module name="common-elasticsearch" options="" />
+      <module name="common-email" options="" />
+      <module name="common-kafka" options="" />
+      <module name="common-redis" options="" />
+      <module name="common-security" options="" />
+      <module name="notification-service" options="" />
+      <module name="order-service" options="" />
+      <module name="payment-service" options="" />
+      <module name="search-service" options="" />
+      <module name="user-service" options="" />
     </option>
   </component>
 </project>
